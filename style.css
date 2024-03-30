@@ -1,0 +1,182 @@
+body {
+   height: 100vh;
+
+   background-color: white;
+
+   display: flex;
+   justify-content: center;
+
+   font-family: Poppins, Arial, Helvetica, sans-serif;
+   font-size: 15px;
+}
+
+main {
+   padding-top: 5rem;
+   padding-bottom: 5rem;
+}
+
+
+p {
+   color: hsl(229, 6%, 66%);
+}
+
+/* heading */
+
+.phrase-1,
+.phrase-2,
+h2 {
+   color: hsl(234, 12%, 34%);
+}
+
+
+.phrase-1,
+.phrase-2 {
+
+   font-size: 2.2rem;
+
+   text-align: center;
+}
+
+.phrase-1 {
+   font-weight: 200;
+
+   margin-bottom: 0;
+}
+
+.phrase-2 {
+   font-weight: 600;
+
+   margin-top: 0;
+   margin-bottom: 1rem;
+}
+
+.mission {
+   text-align: center;
+
+   font-size: 1rem;
+
+   width: 34rem;
+   height: 100%;
+
+   margin: 0 auto;
+}
+
+/* quality */
+
+.quality {
+   display: flex;
+
+   margin-top: 3rem;
+}
+
+.supervisor,
+.team-builder,
+.karma,
+.calculator {
+   display: flex;
+   flex-direction: column;
+
+   box-shadow: 0 10px 14px hsla(234, 12%, 34%, 0.2);
+
+   width: 17rem;
+   height: 12rem;
+
+   padding-top: 0;
+   padding-left: 1.5rem;
+   padding-right: 1.5rem;
+   padding-bottom: 1.5rem;
+
+   border-radius: 10px;
+}
+
+.supervisor {
+   border-top: 5px solid hsl(180, 62%, 55%);
+
+   margin-top: 6.5rem;
+}
+
+.team-builder {
+   border-top: 5px solid hsl(0, 78%, 62%);
+   margin-bottom: 2rem;
+}
+
+.karma {
+   border-top: 5px solid hsl(34, 97%, 64%);
+}
+
+.calculator {
+   border-top: 5px solid hsl(212, 86%, 64%);
+   margin-top: 6.5rem;
+}
+
+img {
+   width: 50px;
+
+   margin-top: auto;
+   margin-left: auto;
+}
+
+h2 {
+   font-size: 1.3rem;
+   font-weight: 600;
+
+   margin-bottom: 2px;
+}
+
+.des {
+   font-size: 0.85rem;
+}
+
+.grouping {
+   margin-right: 2rem;
+   margin-left: 2rem;
+}
+
+/* responsive */
+
+@media only screen and (width <=1110px) {
+
+   .phrase-1,
+   .phrase-2 {
+
+      font-size: 1.6rem;
+
+      text-align: center;
+   }
+
+   .mission {
+      width: 20rem;
+   }
+
+   main {
+      padding-top: 0;
+      padding-bottom: 0
+   }
+
+   .quality {
+      flex-direction: column;
+
+      align-items: center;
+   }
+
+   .supervisor,
+   .calculator {
+      margin-top: 0;
+   }
+
+   .team-builder {
+      margin-bottom: 0;
+   }
+
+   .supervisor,
+   .team-builder,
+   .karma,
+   .calculator {
+      margin-bottom: 1.5rem;
+   }
+
+   .grouping {
+      margin-right: 0;
+      margin-left: 0;
+   }
+}
